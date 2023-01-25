@@ -25,14 +25,14 @@ struct RMCharacter: Codable {
 enum RMCharacterStatus: String, Codable {
     case alive = "Alive"
     case dead = "Dead"
-    case unknow = "unknow"
+    case unknow = "unknown"
 }
 
 enum RMCharacterGender: String, Codable {
     case male = "Male"
     case female = "Female"
     case genderless = "Genderless"
-    case unknow = "unknow"
+    case unknow = "unknown"
 }
 
 struct RMOrigin: Codable {
